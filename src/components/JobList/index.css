@@ -1,0 +1,10 @@
+.jobListCont {
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+  overflow-y: scroll;
+}
+
+.jobListCont::-webkit-scrollbar {
+  width: 2px;
+}

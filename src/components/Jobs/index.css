@@ -1,0 +1,275 @@
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 22;
+}
+
+.job-cont {
+  min-height: 100vh;
+  background-color: #121212;
+  display: flex;
+  padding-top: 79px;
+}
+
+.left-pane {
+  width: 30%;
+  padding: 30px;
+}
+
+.right-pane {
+  padding: 20px;
+  width: 70%;
+}
+
+.profile-cont {
+  padding: 20px;
+  width: 90%;
+  height: 200px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.profile-cont1 {
+  padding: 20px;
+  width: 90%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profName {
+  color: #4f46e5;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.profDesc {
+  color: #475569;
+}
+
+.custRetry {
+  padding: 7px 30px;
+  background-color: #4f46e5;
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.horLine {
+  margin-right: 40px;
+  border: 1px solid #475569;
+}
+
+.employmentFilterCont {
+  padding: 20px;
+  color: white;
+}
+
+.employmentHeader {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.employmentFilter {
+  margin-bottom: 20px;
+}
+
+.checkboxSel {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.emplymentTypeText {
+  cursor: pointer;
+}
+
+.searchCont {
+  display: flex;
+  align-items: center;
+  background-color: #202020;
+  width: 50%;
+  border: 2px solid #475569;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.noJobsFoundCont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.searchInp {
+  padding: 10px;
+  width: 90%;
+  background-color: #121212;
+  border: 0px;
+  outline-width: 0;
+  color: white;
+}
+
+.searchIcon {
+  margin-left: 15px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.loader-container {
+  padding: 20px;
+  width: 90%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader-container1 {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.showMob {
+  display: none;
+}
+
+.filterSmallCont {
+  display: none;
+}
+
+.noJobsFound {
+  font-size: 40px;
+}
+
+.noJobsPara {
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .right-pane {
+    max-height: 70vh;
+    overflow-y: scroll;
+  }
+
+  .nojobsFoundImg {
+    width: 100%;
+  }
+
+  .right-pane ::-webkit-scrollbar {
+    width: 2px;
+  }
+
+  .searchCont {
+    display: none;
+  }
+
+  .showMob {
+    display: flex;
+    width: 80%;
+  }
+  .searchFlexCont {
+    display: flex;
+    justify-content: center;
+  }
+
+  .job-cont {
+    min-height: 100vh;
+
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    padding-top: 79px;
+  }
+
+  .profile-cont {
+    padding: 20px;
+    width: 90%;
+    height: 200px;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+    background-size: cover;
+    border-radius: 20px;
+    margin-bottom: 30px;
+  }
+
+  .left-pane {
+    width: 100%;
+    padding: 5px 30px;
+  }
+
+  .right-pane {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .searchIcon {
+    margin: 10px;
+  }
+
+  .salarySmallCont {
+    width: 50%;
+  }
+
+  .salarySelect {
+    width: 100%;
+    padding: 11px;
+  }
+
+  .filterSmallCont {
+    display: flex;
+    /* position: fixed; */
+    margin-top: 10px;
+  }
+
+  .filterSmallCont1 {
+    display: flex;
+  }
+
+  .employeetTypeSmallCont {
+    width: 50%;
+  }
+
+  .employmentFilterCont {
+    display: none;
+  }
+  .typeOfEmployee {
+    color: #f8fafc;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .horLine {
+    display: none;
+  }
+
+  .employeetTypeSmallCont {
+    z-index: 11;
+  }
+
+  .multiSelect {
+    border-radius: 30px !important;
+    background-color: black;
+  }
+
+  .profile-cont {
+    display: none;
+  }
+
+  .profile-cont1 {
+    display: none;
+  }
+
+  .loader-container {
+    display: none;
+  }
+}

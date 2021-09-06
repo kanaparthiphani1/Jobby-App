@@ -1,0 +1,84 @@
+.jobItem-outer {
+  background-color: #202020;
+  padding: 27px;
+  border-radius: 24px;
+  margin-top: 30px;
+}
+
+.jobItemHeader {
+  display: flex;
+}
+
+.linkStyle {
+  list-style: none;
+  text-decoration: none;
+}
+
+.imgLogo {
+  width: 75px;
+  height: 75px;
+  margin-right: 30px;
+}
+
+.roleRatingCont {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.jobTitle {
+  font-size: 25px;
+}
+
+.ratingCont {
+  display: flex;
+}
+
+.star {
+  color: #fbbf24;
+}
+
+.middleSection {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.leftSec {
+  display: flex;
+}
+
+.locCont {
+  display: flex;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.rating {
+  margin-right: 20px;
+}
+
+.horLine {
+  margin-right: 0px;
+  border: 1px solid #475569;
+}
+
+.descriptionCont {
+  color: #cbd5e1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.descHead {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.desc-para {
+  font-size: 15px;
+}

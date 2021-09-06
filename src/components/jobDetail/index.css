@@ -1,0 +1,147 @@
+* {
+  margin: 0px;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+}
+
+.detailCont {
+  background-color: black;
+  min-height: 100vh;
+}
+
+.jobItem-outer1 {
+  background-color: #202020;
+  padding: 27px;
+  border-radius: 24px;
+}
+
+.jobItemOuter {
+  min-height: 60vh;
+  padding-top: 120px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.skillOuter {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 33%;
+  flex-wrap: wrap;
+}
+
+.skillImg {
+  width: 43px;
+  margin-right: 14px;
+}
+
+.skillText {
+  font-size: 18px;
+}
+
+.skillsCont {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.lifeAtCompanyCont {
+  display: flex;
+  color: white;
+}
+
+.companyImg {
+  width: 900px;
+}
+
+.desc-para1 {
+  color: white;
+  font-size: 15px;
+}
+
+.jobTitle1 {
+  color: white;
+}
+.similarJobsOuter {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.jobItem-outer2 {
+  padding: 20px;
+  background-color: #202020;
+  border-radius: 30px;
+}
+
+.jobItemOut {
+  padding: 10px;
+  display: flex;
+
+  border-radius: 120px;
+  padding-bottom: 30px;
+  border-radius: 30px;
+}
+
+.similarJobsCont {
+  margin-top: 20px;
+}
+
+.styledLinks {
+  list-style: none;
+  text-decoration: none;
+  width: 33%;
+}
+
+.descCont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.anchorStyle {
+  text-decoration: none;
+  color: #6366f1;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+  .lifeAtCompanyCont {
+    flex-direction: column;
+  }
+
+  .companyImg {
+    width: 100%;
+  }
+
+  .similarJobsOuter {
+    flex-direction: column;
+  }
+
+  .jobItem-outer1 {
+    background-color: #202020;
+    padding: 27px;
+    border-radius: 24px;
+    width: 90vw;
+  }
+
+  .jobItemOuter {
+    min-height: 60vh;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .styledLinks {
+    list-style: none;
+    text-decoration: none;
+    width: 90vw;
+  }
+
+  .jobTitle1 {
+    text-align: center;
+  }
+}
